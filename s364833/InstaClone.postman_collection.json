@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "755796b0-e7ff-49a2-a05a-343c8c951b9f",
+		"name": "InstaClone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10177862"
+	},
+	"item": [
+		{
+			"name": "Create a User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"john_doe\",\n  \"email\": \"john@example.com\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5209/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5209",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"imageUrl\": \"http://example.com/image.jpg\",\n  \"description\": \"A beautiful sunset\",\n  \"userId\": 1  // Assuming 1 is the ID of the created user\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5209/api/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5209",
+					"path": [
+						"api",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Creat a Comment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"text\": \"Amazing picture!\",\n  \"postId\": 1,  // Assuming 1 is the ID of the created post\n  \"userId\": 1   // Assuming 1 is the ID of the created user\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5209/api/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5209",
+					"path": [
+						"api",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
