@@ -29,5 +29,26 @@ namespace dream_car_api.Controllers
             var customerList = await _customerRepository.GetAllCustomerAsync();
             return Ok(customerList);
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult> GetCustomerByIdAsync([FromRoute] int id)
+        {
+            var car = await _customerRepository.GetCustomerByIdAysnc(id);
+            return Ok(car);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> UpdateCustomerAsync([FromRoute] int id, [FromBody] Customer model)
+        {
+            await _customerRepository.UpdateCustomerAsync(id, model);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteCustomerAsync([FromRoute] int id)
+        {
+            await _customerRepository.DeleteCustomerAsync(id);
+            return Ok();
+        }
     }
 }

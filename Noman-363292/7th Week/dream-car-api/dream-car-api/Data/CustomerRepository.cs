@@ -23,5 +23,38 @@ namespace dream_car_api.Data
         {
             return await _appDbContext.Customers.ToListAsync();
         }
+
+        //get-customer-by-id
+        public async Task<Customer> GetCustomerByIdAysnc(int id)
+        {
+            return await _appDbContext.Customers.FindAsync(id);
+        }
+
+        //update-a-customer
+        public async Task UpdateCustomerAsync(int id, Customer model)
+        {
+            var customer = await _appDbContext.Customers.FindAsync(id);
+            if (customer == null)
+            {
+                throw new Exception("Customer not found!");
+            }
+            customer.Name = model.Name;
+            customer.Address = model.Address;
+            customer.phone = model.phone;
+
+            await _appDbContext.SaveChangesAsync();
+        }
+
+        //delete-a-car
+        public async Task DeleteCustomerAsync(int id)
+        {
+            var customer = await _appDbContext.Customers.FindAsync(id);
+            if (customer == null)
+            {
+                throw new Exception("Customer not found!");
+            }
+            _appDbContext.Customers.Remove(customer);
+            await _appDbContext.SaveChangesAsync();
+        }
     }
 }
