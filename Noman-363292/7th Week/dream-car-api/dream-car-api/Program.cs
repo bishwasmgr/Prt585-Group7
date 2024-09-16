@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>(option => option.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
 builder.Services.AddScoped<CarRepository>();
 builder.Services.AddScoped<CustomerRepository>();
+builder.Services.AddScoped<DealerRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
