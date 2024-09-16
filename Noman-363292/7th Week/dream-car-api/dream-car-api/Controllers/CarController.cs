@@ -35,5 +35,19 @@ namespace dream_car_api.Controllers
             var car = await _carRepository.GetCarByIdAysnc(id);
             return Ok(car);
         }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> UpdateCarAsync([FromRoute] int id, [FromBody] Car model)
+        {
+            await _carRepository.UpdateCarAsync(id, model);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteCarAsync([FromRoute] int id)
+        {
+            await _carRepository.DeleteCarAsync(id);
+            return Ok();
+        }
     }
 }
