@@ -8,5 +8,7 @@ namespace First_API.Data
 
         public DbSet<Employee> Employees { get; set; }
         
+        public DbSet<ShareHolder> ShareHolders { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

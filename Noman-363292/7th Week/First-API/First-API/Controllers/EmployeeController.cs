@@ -29,5 +29,26 @@ namespace First_API.Controllers
             var employeeList =await _employeeRepository.GetAllEmployeeAsync();
             return Ok(employeeList);
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult> GetEmployeeById([FromRoute] int id)
+        {
+            var employee = await _employeeRepository.GetEmployeeById(id);
+            return Ok(employee);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> UpdateEmployee([FromRoute] int id, [FromBody] Employee model)
+        {
+            await _employeeRepository.UpdateEmployee(id, model);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteEmployee([FromRoute] int id)
+        {
+            await _employeeRepository.DeleteEmployeeAsync(id);
+            return Ok();
+        }
     }
 }
