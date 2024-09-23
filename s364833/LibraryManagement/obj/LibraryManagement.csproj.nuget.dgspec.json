@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/LibraryManagement.csproj": {}
+    "D:\\MS\\Sem-2-2024\\Software Engineering Practice\\Project-Based\\Prt585-Group7\\s364833\\LibraryManagement\\LibraryManagement.csproj": {}
   },
   "projects": {
-    "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/LibraryManagement.csproj": {
+    "D:\\MS\\Sem-2-2024\\Software Engineering Practice\\Project-Based\\Prt585-Group7\\s364833\\LibraryManagement\\LibraryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/LibraryManagement.csproj",
+        "projectUniqueName": "D:\\MS\\Sem-2-2024\\Software Engineering Practice\\Project-Based\\Prt585-Group7\\s364833\\LibraryManagement\\LibraryManagement.csproj",
         "projectName": "LibraryManagement",
-        "projectPath": "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/LibraryManagement.csproj",
-        "packagesPath": "/Users/bishwasthapamagar/.nuget/packages/",
-        "outputPath": "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/obj/",
+        "projectPath": "D:\\MS\\Sem-2-2024\\Software Engineering Practice\\Project-Based\\Prt585-Group7\\s364833\\LibraryManagement\\LibraryManagement.csproj",
+        "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
+        "outputPath": "D:\\MS\\Sem-2-2024\\Software Engineering Practice\\Project-Based\\Prt585-Group7\\s364833\\LibraryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/bishwasthapamagar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,7 +50,21 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
@@ -81,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

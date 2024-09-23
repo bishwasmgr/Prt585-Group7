@@ -1,0 +1,6 @@
+Post API- https://localhost:7226/api/Car
+Get API- https://localhost:7226/api/Car
+Get (Id) API- https://localhost:7226/api/Car/3
+Put (id) API- https://localhost:7226/api/Car/1
+Delete (id) API- https://localhost:7226/api/Car/5
+
