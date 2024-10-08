@@ -1,0 +1,16 @@
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/bin/Debug/net8.0/LibraryManagementSystem.BLL.deps.json
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/bin/Debug/net8.0/LibraryManagementSystem.BLL.dll
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/bin/Debug/net8.0/LibraryManagementSystem.BLL.pdb
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/bin/Debug/net8.0/LibraryManagementSystem.DAL.dll
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/bin/Debug/net8.0/LibraryManagementSystem.DAL.pdb
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/LibraryManagementSystem.BLL.csproj.AssemblyReference.cache
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/LibraryManagementSystem.BLL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/LibraryManagementSystem.BLL.AssemblyInfoInputs.cache
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/LibraryManagementSystem.BLL.AssemblyInfo.cs
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/LibraryManagementSystem.BLL.csproj.CoreCompileInputs.cache
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/LibraryManagementSystem.BLL.sourcelink.json
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/LibraryM.7163BE29.Up2Date
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/LibraryManagementSystem.BLL.dll
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/refint/LibraryManagementSystem.BLL.dll
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/LibraryManagementSystem.BLL.pdb
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.BLL/obj/Debug/net8.0/ref/LibraryManagementSystem.BLL.dll

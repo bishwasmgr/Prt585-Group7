@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sRkq7wfpt0E=",
+  "dgSpecHash": "km+KRFIVKx4=",
   "success": true,
-  "projectFilePath": "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/LibraryManagement.csproj",
+  "projectFilePath": "/Users/bishwasthapamagar/Projects/Group7/s364833/LibraryManagement/LibraryManagement.csproj",
   "expectedPackageFiles": [
     "/Users/bishwasthapamagar/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/bishwasthapamagar/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",

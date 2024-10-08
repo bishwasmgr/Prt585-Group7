@@ -1,0 +1,13 @@
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/bin/Debug/net8.0/LibraryManagementSystem.DAL.deps.json
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/bin/Debug/net8.0/LibraryManagementSystem.DAL.dll
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/bin/Debug/net8.0/LibraryManagementSystem.DAL.pdb
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/LibraryManagementSystem.DAL.csproj.AssemblyReference.cache
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/LibraryManagementSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/LibraryManagementSystem.DAL.AssemblyInfoInputs.cache
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/LibraryManagementSystem.DAL.AssemblyInfo.cs
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/LibraryManagementSystem.DAL.csproj.CoreCompileInputs.cache
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/LibraryManagementSystem.DAL.sourcelink.json
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/LibraryManagementSystem.DAL.dll
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/refint/LibraryManagementSystem.DAL.dll
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/LibraryManagementSystem.DAL.pdb
+/Users/bishwasthapamagar/Projects/Group7/LibraryManagementSystem/LibraryManagementSystem.DAL/obj/Debug/net8.0/ref/LibraryManagementSystem.DAL.dll

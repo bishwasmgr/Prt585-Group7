@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/LibraryManagement.csproj": {}
+    "/Users/bishwasthapamagar/Projects/Group7/s364833/LibraryManagement/LibraryManagement.csproj": {}
   },
   "projects": {
-    "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/LibraryManagement.csproj": {
+    "/Users/bishwasthapamagar/Projects/Group7/s364833/LibraryManagement/LibraryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/LibraryManagement.csproj",
+        "projectUniqueName": "/Users/bishwasthapamagar/Projects/Group7/s364833/LibraryManagement/LibraryManagement.csproj",
         "projectName": "LibraryManagement",
-        "projectPath": "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/LibraryManagement.csproj",
+        "projectPath": "/Users/bishwasthapamagar/Projects/Group7/s364833/LibraryManagement/LibraryManagement.csproj",
         "packagesPath": "/Users/bishwasthapamagar/.nuget/packages/",
-        "outputPath": "/Users/bishwasthapamagar/Projects/CDU/LibraryManagement/obj/",
+        "outputPath": "/Users/bishwasthapamagar/Projects/Group7/s364833/LibraryManagement/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bishwasthapamagar/.nuget/NuGet/NuGet.Config"
